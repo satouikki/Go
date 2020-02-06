@@ -18,7 +18,7 @@ type Info struct {
 }
 
 const DRIVER = "mysql"
-const DSN = "golang-test-user:golang-test-pass@tcp(mysql-container:3306)/golang-test-database"
+const DSN = "golangTestUser:golang-test-pass@tcp(mysql:3306)/golangTestDatabase"
 
 func main() {
 
